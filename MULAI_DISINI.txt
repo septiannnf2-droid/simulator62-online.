@@ -1,0 +1,15 @@
+SIMULATOR +62 — WEBSITE MULTIPLAYER + AUTO-SAVE
+
+Kamu tidak perlu mengubah kode apa pun untuk mulai memakai layanan gratis.
+
+1. Baca DEPLOY_RENDER.md.
+2. Buat database Upstash Free; simpan REST URL dan REST TOKEN secara pribadi.
+3. Upload ISI FOLDER ini ke repository GitHub, bukan file ZIP.
+4. Di Render, pilih New -> Blueprint -> repository GitHub.
+5. Isi kedua environment variable Upstash, pilih Free, kemudian Deploy.
+6. Setelah URL publik tersedia, bagikan ke 3-5 teman.
+
+Cek alamat https://URL-KAMU.onrender.com/health — persistence harus "ready".
+
+JANGAN upload token rahasia Upstash ke GitHub.
+URL publik belum dibuat: membutuhkan login akun GitHub, Upstash, dan Render milikmu.
